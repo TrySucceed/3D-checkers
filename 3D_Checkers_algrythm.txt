@@ -1,2 +1,32 @@
-Start game
+include stdio.h
 
+Start game
+create macros
+	numbOfPieces=96
+	box size=8
+		1-8
+main
+	create verriables
+		intager array 5*96 named player 1
+		intager array 5*96 named player 2
+	note: for p, 1 is black 2 is white
+	ntoe: for t, 1 is king, 0 is not
+	call place pices
+	display pieces
+
+place pices
+
+display pieces
+	display black with matrix number (collum +1)
+	dispay white with matrix number (colllum +1)
+
+make a move
+	get user input (collum= user input -1)
+	get user input on change
+	update test matrix
+
+key
+	using a loop
+		display each collum as a mtrix
+		do in gourps of 5
+	end loop
